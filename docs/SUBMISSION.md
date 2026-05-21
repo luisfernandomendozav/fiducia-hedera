@@ -4,11 +4,11 @@ Track the final hand-in here. Tick boxes as you go, fill in the urls.
 
 ## 1. Public GitHub repo
 
-- [ ] Create empty repo (`gh repo create fiducia-hedera --public`)
-- [ ] Push this directory
-- [ ] README has a clear "what / why / how" + screenshots or gif
-- [ ] LICENSE chosen (MIT is fine)
-- [ ] Repo URL: ____________
+- [x] Create empty repo (`gh repo create fiducia-hedera --public`)
+- [x] Push this directory
+- [x] README has a clear "what / why / how" + screenshots or gif
+- [x] LICENSE chosen (MIT is fine)
+- [x] Repo URL: https://github.com/luisfernandomendozav/fiducia-hedera
 
 ## 2. Built using the Hedera Agent Kit (JS or Python)
 
