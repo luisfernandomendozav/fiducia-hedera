@@ -34,9 +34,9 @@ here as proof:
 
 ## 4. Demo video on X
 
-- [ ] Filmed using `docs/DEMO_PLAYBOOK.md`
-- [ ] Posted to X with project handle
-- [ ] X post URL: ____________
+- [x] Filmed using `docs/DEMO_PLAYBOOK.md`
+- [x] Posted to X with project handle
+- [x] X post URL: https://x.com/LuisFrnandoM/status/2057570695018934506?s=20
 - [ ] Confirmed retention for ≥ 90 days (calendar reminder set)
 
 ## 5. Feedback on AI Studio tools
