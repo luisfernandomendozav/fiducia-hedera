@@ -1,0 +1,13 @@
+Fortuna is a tiny AI fortune-cookie tip jar on Hedera testnet.
+
+You ask for courage, luck, or a little cosmic nudge. Fortuna writes a short AI fortune, sends a real HBAR tip, and records the reading on Hedera Consensus Service.
+
+Built for the Hedera AI Studio / Agent Kit challenge.
+
+Demo proof:
+- Real testnet HBAR transfer
+- HCS fortune message
+- Hashscan receipts
+- Hedera Agent Kit JS
+
+#Hedera #HBAR #AI #Web3

@@ -1,0 +1,21 @@
+version: 1
+name: fortuna-default-policy
+
+limits:
+  # Largest single tip Fortuna will let the operator burn (50 HBAR in tinybars)
+  max_tip_tinybars: 5000000000
+  # Soft daily cap (1000 HBAR)
+  max_daily_outflow_tinybars: 100000000000
+  # Operator should never drop below ~5 HBAR (gas + safety)
+  min_operator_balance_tinybars: 500000000
+
+approval_thresholds:
+  # Anything > 5 HBAR per fortune requires a human nod
+  require_human_approval_above_tinybars: 500000000
+  require_human_approval_for:
+    - new_topic
+    - policy_change
+    - key_rotation
+
+# Empty list = allow any topic. Lock down by listing your topic id(s) here.
+topic_whitelist: []

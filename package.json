@@ -1,0 +1,58 @@
+{
+  "name": "fiducia-hedera",
+  "version": "0.0.1",
+  "description": "Fortuna — a fun, AI-driven fortune-cookie tip-jar agent on Hedera. Built on the Hedera Agent Kit. Submission for the Fun Basic Hedera Agent challenge.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Luis Fernando Mendoza <luisfernandomendozav@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luisfermendoza/fiducia-hedera"
+  },
+  "keywords": [
+    "hedera",
+    "hedera-agent-kit",
+    "agent",
+    "ai",
+    "hcs",
+    "hbar",
+    "claude",
+    "fortuna",
+    "tip-jar"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "setup:testnet": "tsx scripts/setup-testnet.ts",
+    "setup:topic": "tsx scripts/setup-topic.ts",
+    "demo": "tsx scripts/demo.ts",
+    "chat": "tsx scripts/chat.ts",
+    "verify": "tsx scripts/verify.ts"
+  },
+  "pnpm": {
+    "overrides": {
+      "@hashgraph/sdk": "$@hashgraph/sdk",
+      "@langchain/core": "1.1.47"
+    }
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.40.0",
+    "@hashgraph/sdk": "2.80.0",
+    "@noble/ed25519": "^2.1.0",
+    "@noble/hashes": "^1.5.0",
+    "dotenv": "^16.4.0",
+    "hedera-agent-kit": "^3.8.2",
+    "yaml": "^2.6.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  },
+  "packageManager": "pnpm@10.30.1+sha512.3590e550d5384caa39bd5c7c739f72270234b2f6059e13018f975c313b1eb9fefcc09714048765d4d9efe961382c312e624572c0420762bdc5d5940cdf9be73a"
+}
